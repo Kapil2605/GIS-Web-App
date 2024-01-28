@@ -1,0 +1,38 @@
+
+.sidebar-menu {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    background-color:rgb(15, 5, 91);
+    color:white;
+    padding: 10px;
+    height: 100%;
+    width: 200px;
+    overflow-x: hidden;
+    transition: width 0.5s;
+  }
+  
+  .sidebar-menu.active {
+    width: 0;
+  }
+  
+  .menu-item {
+    cursor: pointer;
+    padding: 8px;
+    border-bottom: 1px solid #555;
+  }
+  
+  .menu-item:hover {
+    background-color:rgb(11, 5, 63);
+  }
+  .popup-div {
+    position: fixed;
+    top: 0;
+    left: 200px; /* Width of the sidebar menu */
+    width: calc(40% - 200px);
+    height: 90%;
+    background-color: #fff;
+    padding: 20px;
+  }
+  
