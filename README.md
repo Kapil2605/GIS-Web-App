@@ -40,10 +40,10 @@ The App component can be extended to include additional features or components a
 
 # Getting Started
 ### Clone the repository:
-git clone https://github.com/your-username/your-repo.git
+git clone https://github.com/Kapil2605/GIS-Web-App.git
 
 ### Navigate to the project directory:
-cd your-repo
+cd GIS-Web-App
 
 ### Install dependencies:
 npm install
